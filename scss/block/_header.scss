@@ -1,0 +1,124 @@
+.header{
+    padding-top: 45px;
+    background-image: url(../img/hero_bgi.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navigator{
+    gap: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    max-width: 135px;
+    display: inline-block;
+}
+
+.header__btn{
+    color: #FBFCFE;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
+    border-radius: 24px;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    background-color: #BA4270;
+    padding: 15px 25px;
+    display: none;
+    white-space: nowrap;
+}
+
+.header__menu{
+    width: 28px;
+    height: 16px;
+    border: none;
+    background-color: transparent;
+    background-image: url(../img/menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.header__link{
+    color: #36536B;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.7;
+    
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    display: none;
+    margin-right: 506px;
+}
+
+
+
+@media (min-width: 768px) {
+    .header{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../img/hero_bgi__t.svg);
+        
+    }
+
+    .header__list{
+        display: flex;
+    }
+    
+    .header__btn{
+        display: inline-block;
+    }
+    .header__menu{
+        display: none;
+    }
+
+    .header__list{
+        margin-right: 85px;
+    }
+
+    .header{
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 992px){
+    .header{
+        background-image: url(../img/hero_bgi__d.svg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+    }
+
+    .header__list{
+        margin-right: 506px;
+    }
+
+    .header__logo{
+        max-width: 135px;
+        width: 100%;
+    }
+}

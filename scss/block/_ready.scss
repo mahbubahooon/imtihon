@@ -1,0 +1,49 @@
+.ready {
+    text-align: center;
+    padding-top: 96px;
+}
+
+.ready__text {
+    color: #36536B;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'DM Serif Display';
+    line-height: 36px;
+    /* 112.5% */
+    letter-spacing: -0.246px;
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 765px) {
+    
+
+    .service__text {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        /* 116.667% */
+        letter-spacing: -0.369px;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {
+    
+
+    .ready {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ready__text {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        /* 116.667% */
+        letter-spacing: -0.369px;
+        white-space: nowrap;
+    }
+
+}

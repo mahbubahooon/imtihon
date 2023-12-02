@@ -1,0 +1,120 @@
+.easy{
+    padding-top: 80px;
+}
+
+.easy__img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 328px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 48px;
+}
+
+.easy__container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.easy__info {
+    max-width: 328px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.easy__title{
+    max-width: 573px;
+    width: 100%;
+    color: #36536B;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 100% */
+    letter-spacing: -0.277px;
+    margin-bottom: 24px;
+}
+
+.easy__text{
+    max-width: 573px;
+    width: 100%;
+    color: #6C8294;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+}
+
+@media screen and (min-width: 765px) {
+    .easy__img {
+        max-width: 391px;
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+    .easy__title {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        /* 116.667% */
+        letter-spacing: -0.369px;
+        margin-bottom: 24px;
+    }
+
+    .easy__text {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        max-width: 514px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .easy__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   
+
+    .easy__img {
+        max-width: 445px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .easy__title {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        /* 116.667% */
+        letter-spacing: -0.369px;
+        margin-bottom: 24px;
+        text-align: left;
+    }
+
+    .easy__text {
+        text-align: left;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .easy__info {
+        max-width: 390px;
+        width: 100%;
+    }
+
+}
